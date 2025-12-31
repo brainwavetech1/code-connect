@@ -23,6 +23,7 @@ export const Registration = () => {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+        console.log("Submitting registration to /api/register");
         setLoading(true);
         setError(null);
 
